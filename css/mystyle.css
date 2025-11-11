@@ -57,7 +57,7 @@ aside .list-group-item a:focus {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
-/* Іконки соцмереж у футері */
+/* Анімація іконок соцмереж у футері */
 footer a {
     display: inline-block;
     transition: transform 0.3s ease, color 0.3s ease;
