@@ -1,388 +1,359 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ChocoFox</title>
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
-
-
-    <link href="css/bootstrap.css" rel="stylesheet" >
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="css/mystyle.css" rel="stylesheet">
-</head>
-<body>
-
-<!-- Хедер з навігацією -->
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="images/chocolate-cake.svg" alt="ChocoFox Logo" height="40" class="me-2">
-                ChocoFox
-            </a>
-
-            <!-- Кнопка бургер-меню для мобільних -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Меню навігації -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Інформаційні мета-теги -->
+      <meta name="author" content="Антіпова Софія">
+      <meta name="keywords" content="ChocoFox, шоколадні вироби, цікавинки, контакти">
+      <meta name="description" content="ChocoFox - шоколадна майстерня з унікальними смаками. Замовляйте вишукані шоколадні вироби з натуральних інгредієнтів.">
+      <title>ChocoFox</title>
+      <!-- Favicon -->
+      <link rel="icon" type="image/png" href="images/favicon.png">
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+      <link href="css/mystyle.css" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Хедер з навігацією -->
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+               <a class="navbar-brand" href="#">
+               <img src="images/chocolate-cake.svg" alt="ChocoFox Logo" height="40" class="me-2">
+               ChocoFox
+               </a>
+               <!-- Кнопка бургер-меню для мобільних -->
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <!-- Меню навігації -->
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto">
+                     <li class="nav-item">
                         <a class="nav-link active" href="#about">Про нас</a>
-                    </li>
-                    <li class="nav-item">
+                     </li>
+                     <li class="nav-item">
                         <a class="nav-link" href="#products">Шоколадні вироби</a>
-                    </li>
-                    <li class="nav-item">
+                     </li>
+                     <li class="nav-item">
                         <a class="nav-link" href="#facts">Цікавинки</a>
-                    </li>
-                    <li class="nav-item">
+                     </li>
+                     <li class="nav-item">
                         <a class="nav-link" href="#contacts">Контакти</a>
-                    </li>
-                </ul>
+                     </li>
+                  </ul>
+               </div>
             </div>
-        </div>
-    </nav>
-</header>
-
-<!-- Основний контент в контейнері -->
-<main>
-    <div class="container my-5">
-
-        <!-- Секція "Про нас" -->
-        <section id="about">
-            <div class="row">
-
-                <!-- Ліва колонка (меню) -->
-                <aside class="col-lg-3 col-md-4 mb-4">
-                    <div class="card">
+         </nav>
+      </header>
+      <!-- Основний контент в контейнері -->
+      <main>
+         <div class="container my-5">
+            <!-- Секція "Про нас" -->
+            <section id="about">
+               <div class="row">
+                  <!-- Ліва колонка (меню) -->
+                  <aside class="col-lg-3 col-md-4 mb-4">
+                     <div class="card">
                         <div class="card-header bg-secondary text-white">
-                            <h5 class="mb-0">Меню</h5>
+                           <h5 class="mb-0">Меню</h5>
                         </div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <a href="#about" class="text-decoration-none">Про нас</a>
-                            </li>
-                            <li class="list-group-item">
-                                <a href="#products" class="text-decoration-none">Шоколадні вироби</a>
-                            </li>
-                            <li class="list-group-item">
-                                <a href="#facts" class="text-decoration-none">Цікавинки</a>
-                            </li>
-                            <li class="list-group-item">
-                                <a href="#contacts" class="text-decoration-none">Контакти</a>
-                            </li>
+                           <li class="list-group-item">
+                              <a href="#about" class="text-decoration-none">Про нас</a>
+                           </li>
+                           <li class="list-group-item">
+                              <a href="#products" class="text-decoration-none">Шоколадні вироби</a>
+                           </li>
+                           <li class="list-group-item">
+                              <a href="#facts" class="text-decoration-none">Цікавинки</a>
+                           </li>
+                           <li class="list-group-item">
+                              <a href="#contacts" class="text-decoration-none">Контакти</a>
+                           </li>
                         </ul>
-                    </div>
-                </aside>
-
-                <!-- Центральна колонка (основний контент) -->
-                <div class="col-lg-9 col-md-8 main-content">
-                    <h1 class="mb-4">Про нас</h1>
-
-                    <div class="card mb-4">
+                     </div>
+                  </aside>
+                  <!-- Центральна колонка (основний контент) -->
+                  <div class="col-lg-9 col-md-8 main-content">
+                     <h1 class="mb-4">Про нас</h1>
+                     <div class="card mb-4">
                         <div class="card-body">
-                            <h3 class="card-title">Ласкаво просимо до ChocoFox!</h3>
-                            <p class="card-text">
-                                Наша шоколадна майстерня створює унікальні смаки, які дарують радість кожному.
-                                Ми використовуємо лише найякісніші інгредієнти та традиційні рецепти.
-                            </p>
-                            <p class="card-text">
-                                Вже понад 10 років ми радуємо наших клієнтів вишуканими шоколадними виробами,
-                                створеними з любов'ю та професіоналізмом.
-                            </p>
+                           <h3 class="card-title">Ласкаво просимо до ChocoFox!</h3>
+                           <p class="card-text">
+                              Наша шоколадна майстерня створює унікальні смаки, які дарують радість кожному.
+                              Ми використовуємо лише найякісніші інгредієнти та традиційні рецепти.
+                           </p>
+                           <p class="card-text">
+                              Вже понад 10 років ми радуємо наших клієнтів вишуканими шоколадними виробами,
+                              створеними з любов'ю та професіоналізмом.
+                           </p>
                         </div>
-                    </div>
-
-                    <div class="card">
+                     </div>
+                     <div class="card">
                         <div class="card-body">
-                            <h3 class="card-title">Наша місія</h3>
-                            <p class="card-text">
-                                Дарувати щастя через смак найкращого шоколаду, створеного з натуральних
-                                інгредієнтів та справжньою майстерністю.
-                            </p>
+                           <h3 class="card-title">Наша місія</h3>
+                           <p class="card-text">
+                              Дарувати щастя через смак найкращого шоколаду, створеного з натуральних
+                              інгредієнтів та справжньою майстерністю.
+                           </p>
                         </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Секція "Шоколадні вироби" -->
-        <section id="products" class="my-5 py-5">
-            <h1 class="text-center mb-5">Наші шоколадні вироби</h1>
-
-            <div id="chocolateCarousel" class="carousel slide" data-bs-ride="carousel">
-                <!-- Індикатори -->
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#chocolateCarousel" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#chocolateCarousel" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#chocolateCarousel" data-bs-slide-to="2"></button>
-                    <button type="button" data-bs-target="#chocolateCarousel" data-bs-slide-to="3"></button>
-                    <button type="button" data-bs-target="#chocolateCarousel" data-bs-slide-to="4"></button>
-                    <button type="button" data-bs-target="#chocolateCarousel" data-bs-slide-to="5"></button>
-                    <button type="button" data-bs-target="#chocolateCarousel" data-bs-slide-to="6"></button>
-                </div>
-
-                <!-- Слайди -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- Секція "Шоколадні вироби" -->
+            <section id="products" class="my-5 py-5">
+               <h2 class="text-center mb-5">Наші шоколадні вироби</h2>
+               <div id="chocolateCarousel" class="carousel slide" data-bs-ride="carousel">
+                  <!-- Індикатори -->
+                  <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#chocolateCarousel" data-bs-slide-to="0" class="active"></button>
+                     <button type="button" data-bs-target="#chocolateCarousel" data-bs-slide-to="1"></button>
+                     <button type="button" data-bs-target="#chocolateCarousel" data-bs-slide-to="2"></button>
+                     <button type="button" data-bs-target="#chocolateCarousel" data-bs-slide-to="3"></button>
+                     <button type="button" data-bs-target="#chocolateCarousel" data-bs-slide-to="4"></button>
+                     <button type="button" data-bs-target="#chocolateCarousel" data-bs-slide-to="5"></button>
+                     <button type="button" data-bs-target="#chocolateCarousel" data-bs-slide-to="6"></button>
+                  </div>
+                  <!-- Слайди -->
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
                         <img src="images/candies_almond.jpg" class="d-block w-100 carousel-image" alt="Цукерки з мигдалем">
                         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
-                            <h5>Шоколадні цукерки з мигдалем</h5>
-                            <p>Вишукані цукерки з цільним мигдалем у молочному шоколаді</p>
-                            <a href="#contacts" class="btn btn-warning">Замовити</a>
+                           <h5>Шоколадні цукерки з мигдалем</h5>
+                           <p>Вишукані цукерки з цільним мигдалем у молочному шоколаді</p>
+                           <a href="#contacts" class="btn btn-warning">Замовити</a>
                         </div>
-                    </div>
-                    <div class="carousel-item">
+                     </div>
+                     <div class="carousel-item">
                         <img src="images/candies_cashew.jpg" class="d-block w-100 carousel-image" alt="Цукерки з кеш'ю">
                         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
-                            <h5>Шоколадні цукерки з кеш'ю</h5>
-                            <p>Ніжні цукерки з горіхом кеш'ю та молочним шоколадом</p>
-                            <a href="#contacts" class="btn btn-warning">Замовити</a>
+                           <h5>Шоколадні цукерки з кеш'ю</h5>
+                           <p>Ніжні цукерки з горіхом кеш'ю та молочним шоколадом</p>
+                           <a href="#contacts" class="btn btn-warning">Замовити</a>
                         </div>
-                    </div>
-                    <div class="carousel-item">
+                     </div>
+                     <div class="carousel-item">
                         <img src="images/candies_pitahaya.jpg" class="d-block w-100 carousel-image" alt="Цукерки з пітахаю">
                         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
-                            <h5>Шоколадні цукерки з пітахаєю</h5>
-                            <p>Екзотичні цукерки з драгон фрутом</p>
-                            <a href="#contacts" class="btn btn-warning">Замовити</a>
+                           <h5>Шоколадні цукерки з пітахаєю</h5>
+                           <p>Екзотичні цукерки з драгон фруктом</p>
+                           <a href="#contacts" class="btn btn-warning">Замовити</a>
                         </div>
-                    </div>
-                    <div class="carousel-item">
+                     </div>
+                     <div class="carousel-item">
                         <img src="images/candies_raspberry.jpg" class="d-block w-100 carousel-image" alt="Цукерки з малиною">
                         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
-                            <h5>Шоколадні цукерки з малиною</h5>
-                            <p>Цукерки з натуральною малиновою начинкою</p>
-                            <a href="#contacts" class="btn btn-warning">Замовити</a>
+                           <h5>Шоколадні цукерки з малиною</h5>
+                           <p>Цукерки з натуральною малиновою начинкою</p>
+                           <a href="#contacts" class="btn btn-warning">Замовити</a>
                         </div>
-                    </div>
-                    <div class="carousel-item">
+                     </div>
+                     <div class="carousel-item">
                         <img src="images/candies_strawberry.jpg" class="d-block w-100 carousel-image" alt="Цукерки з полуницею">
                         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
-                            <h5>Шоколадні цукерки з полуницею</h5>
-                            <p>Солодкі цукерки з справжньою полуницею</p>
-                            <a href="#contacts" class="btn btn-warning">Замовити</a>
+                           <h5>Шоколадні цукерки з полуницею</h5>
+                           <p>Солодкі цукерки зі справжньою полуницею</p>
+                           <a href="#contacts" class="btn btn-warning">Замовити</a>
                         </div>
-                    </div>
-                    <div class="carousel-item">
+                     </div>
+                     <div class="carousel-item">
                         <img src="images/choco_bars.jpg" class="d-block w-100 carousel-image" alt="Батончики">
                         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
-                            <h5>Шоколадні батончики</h5>
-                            <p>Маленькі дрібниці для початку дня</p>
-                            <a href="#contacts" class="btn btn-warning">Замовити</a>
+                           <h5>Шоколадні батончики</h5>
+                           <p>Маленькі дрібниці для початку дня</p>
+                           <a href="#contacts" class="btn btn-warning">Замовити</a>
                         </div>
-                    </div>
-                    <div class="carousel-item">
+                     </div>
+                     <div class="carousel-item">
                         <img src="images/chocolate_with_topping.jpg" class="d-block w-100 carousel-image" alt="Топінг">
                         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
-                            <h5>Шоколад з топінгом</h5>
-                            <p>Ідеальний подарунок для близьких</p>
-                            <a href="#contacts" class="btn btn-warning">Замовити</a>
+                           <h5>Шоколад з топінгом</h5>
+                           <p>Ідеальний подарунок для близьких</p>
+                           <a href="#contacts" class="btn btn-warning">Замовити</a>
                         </div>
-                    </div>
-                </div>
-
-                <!-- Кнопки навігації -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#chocolateCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                    <span class="visually-hidden">Попередній</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#chocolateCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                    <span class="visually-hidden">Наступний</span>
-                </button>
-            </div>
-        </section>
-
-        <!-- Секція "Цікавинки" -->
-        <section id="facts" class="my-5 py-5 bg-light">
-            <h1 class="text-center mb-5">Цікавинки про шоколад</h1>
-
-            <!-- Картки -->
-            <div class="row g-4 mb-5">
-                <div class="col-md-4">
-                    <div class="card h-100">
+                     </div>
+                  </div>
+                  <!-- Кнопки навігації -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#chocolateCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                  <span class="visually-hidden">Попередній</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#chocolateCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                  <span class="visually-hidden">Наступний</span>
+                  </button>
+               </div>
+            </section>
+            <!-- Секція "Цікавинки" -->
+            <section id="facts" class="my-5 py-5 bg-light">
+               <h2 class="text-center mb-5">Цікавинки про шоколад</h2>
+               <!-- Картки -->
+               <div class="row g-4 mb-5">
+                  <div class="col-md-4">
+                     <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title"><i class="bi bi-heart-fill text-danger"></i> Корисний для серця</h5>
-                            <p class="card-text">Темний шоколад містить флавоноїди, які покращують роботу серцево-судинної системи.</p>
+                           <h5 class="card-title"><i class="bi bi-heart-fill text-danger"></i> Корисний для серця</h5>
+                           <p class="card-text">Темний шоколад містить флавоноїди, які покращують роботу серцево-судинної системи.</p>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100">
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title"><i class="bi bi-globe text-primary"></i> Стародавній напій</h5>
-                            <p class="card-text">Майя та ацтеки використовували какао як церемоніальний напій ще 3000 років тому.</p>
+                           <h5 class="card-title"><i class="bi bi-globe text-primary"></i> Стародавній напій</h5>
+                           <p class="card-text">Майя та ацтеки використовували какао як церемоніальний напій ще 3000 років тому.</p>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100">
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title"><i class="bi bi-emoji-smile text-warning"></i> Гормон щастя</h5>
-                            <p class="card-text">Шоколад стимулює вироблення ендорфінів, які покращують настрій.</p>
+                           <h5 class="card-title"><i class="bi bi-emoji-smile text-warning"></i> Гормон щастя</h5>
+                           <p class="card-text">Шоколад стимулює вироблення ендорфінів, які покращують настрій.</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Новий accordion з цікавими фактами -->
-            <div class="accordion" id="chocolateFactsAccordion">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
+                     </div>
+                  </div>
+               </div>
+               <!-- Новий accordion з цікавими фактами -->
+               <div class="accordion" id="chocolateFactsAccordion">
+                  <div class="accordion-item">
+                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <i class="bi bi-tree-fill me-2"></i> Походження шоколаду
+                        <i class="bi bi-tree-fill me-2"></i> Походження шоколаду
                         </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#chocolateFactsAccordion">
+                     </h2>
+                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#chocolateFactsAccordion">
                         <div class="accordion-body">
-                            Шоколад походить від какао-бобів, які ростуть на деревах Theobroma cacao. Слово "шоколад" походить від ацтекського "xocolatl", що означає "гіркий напій".
+                           Шоколад походить від какао-бобів, які ростуть на деревах Theobroma cacao. Слово "шоколад" походить від ацтекського "xocolatl", що означає "гіркий напій".
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
+                     </div>
+                  </div>
+                  <div class="accordion-item">
+                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <i class="bi bi-cash-coin me-2"></i> Шоколад як валюта
+                        <i class="bi bi-cash-coin me-2"></i> Шоколад як валюта
                         </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#chocolateFactsAccordion">
+                     </h2>
+                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#chocolateFactsAccordion">
                         <div class="accordion-body">
-                            У стародавніх цивілізаціях какао-боби використовувалися як валюта. Наприклад, ацтеки платили податки какао-бобами, а 100 бобів могли купити раба.
+                           У стародавніх цивілізаціях какао-боби використовувалися як валюта. Наприклад, ацтеки платили податки какао-бобами, а 100 бобів могли купити раба.
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
+                     </div>
+                  </div>
+                  <div class="accordion-item">
+                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <i class="bi bi-star-fill me-2"></i> Найдорожчий шоколад
+                        <i class="bi bi-star-fill me-2"></i> Найдорожчий шоколад
                         </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#chocolateFactsAccordion">
+                     </h2>
+                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#chocolateFactsAccordion">
                         <div class="accordion-body">
-                            Найдорожчий шоколад у світі — "Amedei Porcelana" з Італії, який коштує близько 199 доларів за плитку. Він зроблений з рідкісних какао-бобів Porcelana.
+                           Найдорожчий шоколад у світі — "Amedei Porcelana" з Італії, який коштує близько 199 доларів за плитку. Він зроблений з рідкісних какао-бобів Porcelana.
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFour">
+                     </div>
+                  </div>
+                  <div class="accordion-item">
+                     <h2 class="accordion-header" id="headingFour">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            <i class="bi bi-brain me-2"></i> Шоколад і мозок
+                        <i class="bi bi-brain me-2"></i> Шоколад і мозок
                         </button>
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#chocolateFactsAccordion">
+                     </h2>
+                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#chocolateFactsAccordion">
                         <div class="accordion-body">
-                            Темний шоколад покращує когнітивні функції мозку завдяки антиоксидантам. Дослідження показують, що він може підвищити концентрацію та пам'ять.
+                           Темний шоколад покращує когнітивні функції мозку завдяки антиоксидантам. Дослідження показують, що він може підвищити концентрацію та пам'ять.
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFive">
+                     </div>
+                  </div>
+                  <div class="accordion-item">
+                     <h2 class="accordion-header" id="headingFive">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            <i class="bi bi-rocket-takeoff me-2"></i> Шоколад у космосі
+                        <i class="bi bi-rocket-takeoff me-2"></i> Шоколад у космосі
                         </button>
-                    </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#chocolateFactsAccordion">
+                     </h2>
+                     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#chocolateFactsAccordion">
                         <div class="accordion-body">
-                            Перший шоколад у космосі з'їли астронавти місії Apollo 15 у 1971 році. Це була спеціальна плитка, яка не плавиться в невагомості.
+                           Перший шоколад у космосі з'їли астронавти місії Apollo 15 у 1971 році. Це була спеціальна плитка, яка не плавиться в невагомості.
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Секція "Контакти" -->
-        <section id="contacts" class="my-5 py-5">
-            <h1 class="text-center mb-5">Контакти та замовлення</h1>
-
-            <div class="row align-items-center">
-                <!-- Фото збоку -->
-                <div class="col-lg-5 mb-4">
-                    <img src="images/box_with_candies.jpg"
-                         alt="Шоколадні вироби"
-                         class="contact-image">
-                </div>
-
-                <!-- Контактна інформація -->
-                <div class="col-lg-7">
-                    <div class="card shadow-lg border-0">
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- Секція "Контакти" -->
+            <section id="contacts" class="my-5 py-5">
+               <h2 class="text-center mb-5">Контакти та замовлення</h2>
+               <div class="row align-items-center">
+                  <!-- Фото збоку -->
+                  <div class="col-lg-5 mb-4">
+                     <img src="images/box_with_candies.jpg"
+                        alt="Шоколадні вироби"
+                        class="contact-image">
+                  </div>
+                  <!-- Контактна інформація -->
+                  <div class="col-lg-7">
+                     <div class="card shadow-lg border-0">
                         <div class="card-body p-5">
-                            <h2 class="card-title mb-4 text-center">
-                                <i class="bi bi-chat-heart-fill text-danger"></i> Як зробити замовлення?
-                            </h2>
-
-                            <div class="alert alert-warning border-0 shadow-sm mb-4">
-                                <h4 class="alert-heading">
-                                    <i class="bi bi-instagram"></i> Напишіть нам в Instagram!
-                                </h4>
-                                <p class="mb-0">Найшвидший спосіб оформити замовлення — написати нам у Direct</p>
-                            </div>
-
-                            <div class="mb-4 p-4 bg-light rounded">
-                                <h5 class="mb-3"><i class="bi bi-list-check"></i> Вкажіть у повідомленні:</h5>
-                                <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> <strong>Що саме хочете</strong> (трюфелі, торт, набір тощо)</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> <strong>Наповнення</strong> (які смаки та начинки ви хочете)</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> <strong>Розмір коробки</strong> (маленька, середня, велика)</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> <strong>Колір коробки</strong> (золотий, червоний, білий, чорний)</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> <strong>Обгортка</strong> (стрічка, папір, тип упаковки)</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> <strong>Дата доставки</strong></li>
-                                </ul>
-                            </div>
-
-                            <div class="text-center">
-                                <a href="https://www.instagram.com/mrs.mary_fox/"
-                                   target="_blank"
-                                   class="btn btn-danger btn-lg px-5 shadow">
-                                    <i class="bi bi-instagram"></i> Написати в Instagram
-                                </a>
-                            </div>
+                           <h2 class="card-title mb-4 text-center">
+                              <i class="bi bi-chat-heart-fill text-danger"></i> Як зробити замовлення?
+                           </h2>
+                           <div class="alert alert-warning border-0 shadow-sm mb-4">
+                              <h4 class="alert-heading">
+                                 <i class="bi bi-instagram"></i> Напишіть нам в Instagram!
+                              </h4>
+                              <p class="mb-0">Найшвидший спосіб оформити замовлення — написати нам у Direct</p>
+                           </div>
+                           <div class="mb-4 p-4 bg-light rounded">
+                              <h5 class="mb-3"><i class="bi bi-list-check"></i> Вкажіть у повідомленні:</h5>
+                              <ul class="list-unstyled">
+                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> <strong>Що саме хочете</strong> (трюфелі, торт, набір тощо)</li>
+                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> <strong>Наповнення</strong> (які смаки та начинки ви хочете)</li>
+                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> <strong>Розмір коробки</strong> (маленька, середня, велика)</li>
+                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> <strong>Колір коробки</strong> (золотий, червоний, білий, чорний)</li>
+                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> <strong>Обгортка</strong> (стрічка, папір, тип упаковки)</li>
+                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> <strong>Дата доставки</strong></li>
+                              </ul>
+                           </div>
+                           <div class="text-center">
+                              <a href="https://www.instagram.com/mrs.mary_fox/"
+                                 target="_blank"
+                                 class="btn btn-danger btn-lg px-5 shadow">
+                              <i class="bi bi-instagram"></i> Написати в Instagram
+                              </a>
+                           </div>
                         </div>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </main>
+      <!-- Футер -->
+      <footer class="bg-dark text-white py-4 mt-5">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-md-4">
+                  <p class="mb-0">
+                     <i class="bi bi-bell-fill"></i> Не пропустіть наші новинки й акції!
+                  </p>
+               </div>
+               <div class="col-md-4 text-center">
+                  <p class="mb-0">
+                     &copy; 2025 Антіпова Софія | ChocoFox
+                  </p>
+               </div>
+               <div class="col-md-4 text-end">
+                  <a href="https://www.youtube.com/watch?v=YC3UlD3jjG0" target="_blank" class="text-white me-3">
+                  <i class="bi bi-youtube fs-4"></i>
+                  </a>
+                  <a href="https://www.instagram.com/mrs.mary_fox/" target="_blank" class="text-white">
+                  <i class="bi bi-instagram fs-4"></i>
+                  </a>
+               </div>
             </div>
-        </section>
-
-    </div>
-</main>
-
-<!-- Футер -->
-<footer class="bg-dark text-white py-4 mt-5">
-    <div class="container">
-        <div class="row align-items-center">
-
-            <div class="col-md-4">
-                <p class="mb-0">
-                    <i class="bi bi-bell-fill"></i> Не пропустіть наші новинки і акції!
-                </p>
-            </div>
-
-            <div class="col-md-4 text-center">
-                <p class="mb-0">
-                    &copy; 2025 Антіпова Софія | ChocoFox
-                </p>
-            </div>
-
-            <div class="col-md-4 text-end">
-                <a href="https://www.youtube.com/watch?v=YC3UlD3jjG0" target="_blank" class="text-white me-3">
-                    <i class="bi bi-youtube fs-4"></i>
-                </a>
-                <a href="https://www.instagram.com/mrs.mary_fox/" target="_blank" class="text-white">
-                    <i class="bi bi-instagram fs-4"></i>
-                </a>
-            </div>
-
-        </div>
-    </div>
-</footer>
-
-<script src="js/bootstrap.bundle.min.js"></script>
-</body>
+         </div>
+      </footer>
+      <script src="js/bootstrap.bundle.min.js"></script>
+   </body>
 </html>
